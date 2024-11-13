@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URL, {
 });
 
 app.use(cors({
-    origin:"https://bookshelf-frontend-nu.vercel.app/",
+    origin:"https://bookshelf-frontend-jet.vercel.app/",
     methods:['GET','POST','PUT','DELETE']
 }));
 app.use(express.json());
